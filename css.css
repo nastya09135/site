@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    border: 0;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.header {
+    width: 1903px;
+    height: 900px;
+    background-image: url(./img/фон.jpg);
+}
+
+.header__nav {}
+.GT{
+    margin: 0 0 100px;
+}
+.GT>a {
+    display: flex;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.logo {
+    background-image: url(./img/logo.png);
+    height: 24px;
+    width: 179px;
+
+
+}
+
+.wrapper {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.services {
+    padding-top: 150px;
+}
+
+h1 {
+    color: #868585;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+h2 {
+    color: #303030;
+    font-size: 18px;
+
+}
+
+.grid_services {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.block {
+    padding-top: 50px;
+}
+
+.block_text {
+    padding-top: 15px;
+    font-size: 14px;
+    color: #303030;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    height: 76px;
+}
+
+.services_img {
+    background-image: url(./img/sun.jpg);
+    width: 600px;
+    height: 670px;
+    margin-right: 100px;
+    margin-left: -90px;
+}
+
+.GT {
+    padding-top: 181px;
+}
+
+.grid_GT {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 100px;
+
+}
+
+.grid_GT1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 3000px;
+    padding-top: 60px;
+    color: #303030;
+
+}
+
+.home_text {
+    margin-left: -90px;
+}
+
+.grid_GTinfo {
+    display: grid;
+    padding: 100px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid_GT2 {
+    display: grid;
+    font-weight: 700;
+    grid-template-columns: 1fr 1fr;
+    font-weight: 700;
+    font-size: 18px;
+    max-width: 1000px;
+    padding-top: 60px;
+    color: #303030;
+}
+
+.home {
+    width: 235px;
+    height: 200px;
+    background-image: url(./img/homeGT.jpg);
+}
+
+.home2 {
+    width: 600px;
+    height: 525px;
+    background-image: url(./img/homeGT2.jpg);
+}
+
+.GT_arrows {
+    padding-top: 55px;
+}
+
+.right {
+    padding-left: 22px;
+}
+.home_text2{
+    max-width: 1600px;
+}
+.info_grid{
+display: grid;
+padding-top: 100px;
+max-width:400px ;
+    grid-template-columns: 1fr 1fr;
+}
+.info2{
+
+padding-left: 50px;
+}
+.info_text{
+    padding-top: 5px;
+}
+.info_glav{
+padding-top: 16px;
+}
+.glav{
+    padding-top: 35px;
+}
+.quot{
+    background-image: url(./img/цитата.jpg);
+    width: 1903px;
+        height: 500px;
+     padding-top: 100px;
+     background-repeat: no-repeat;
+}
+.home3{
+    background-image: url(./img/home3.jpg);
+    width: 510px;
+        height: 370px;
+}
+.grid_clients{
+padding-top: 60px;
+display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.arrows2{
+    padding-right: 100px;
+    padding-top: 32px;
+}
+.spisok_client{
+    padding-top: 30px;
+}
+.punkt{
+    margin-top: 15px;
+    margin-left: 50px;
+}
+.button_cl{
+width: 306px;
+    height: 100px;
+    padding-top: 45px;
+}
+.steps{
+    padding-top: 150px;
+}
+.steps_block {
+    padding-top: 10px;
+}
+.steps_img {
+    background-image: url(./img/house4.png);
+width: 600px;
+    height: 730px;
+    margin-right: 100px;
+    margin-left: -90px;
+    margin: 40px;
+}
+.grid_5 {
+    padding-top: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.footer {
+    display: block;
+    background-repeat: no-repeat;
+    background-image: url(../img/Rect_13.png);
+    width: 1920px;
+    height: 730px;
+    margin-top: 170px;
+   
+}
+
+.logo_2 {
+    display: block;
+    background-repeat: no-repeat;
+    background-image: url(../img/logo.png);
+    width: 182px;
+    height: 50px;
+}
+
+.soc {
+    display: block;
+    background-repeat: no-repeat;
+    background-image: url(../img/soc.png);
+    width: 167px;
+    height: 31px;
+}
+
+.name {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    border-bottom: 1px  solid rgb(255, 255, 255); 
+    padding: 20px 0;
+}
+
+.tel {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    border-bottom: 1px  solid rgb(255, 255, 255); 
+    padding: 20px 0;
+}
+
+.white {
+    color: #FFFFFF;
+}
+
+.politic {
+    color: #FFFFFF;
+}
+
+.otz {
+    color: #FFFFFF;
+    font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+}
+
+.app_h {
+    color: #FFFFFF;
+}
+.cont{
+    margin-left: 50px;
+}
+.prew_3 {
+    display: block;
+    background-repeat: no-repeat;
+    background-image: url(../img/prew.png);
+    width: 306px;
+    height: 100px;
+    margin-top: 59px;
+}
+.footer_pol{
+    display: flex;
+    margin-top: 147px;
+}
+.item_fo{
+    margin-left: 140px;
+}
